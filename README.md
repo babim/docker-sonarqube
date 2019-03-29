@@ -1,5 +1,11 @@
-# sonarqube in a Docker container
+# Sonarqube in a Docker container
 ## (Thanks official sonarqube dockerfile)
+
+## Access
+```
+http://ip:9000
+user/pass: admin/admin
+```
 
 ## What is SonarQube?
 
@@ -17,7 +23,7 @@ $ docker run -d --name sonarqube -p 9000:9000 sonarqube
 ```
 By default you can login as admin with password admin, see authentication documentation.
 
-To analyze a Maven project:
+## To analyze a Maven project:
 
 ### On Linux:
 ```
