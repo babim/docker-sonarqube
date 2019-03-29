@@ -1,7 +1,7 @@
 FROM openjdk:8-alpine
 
 ENV SOFT=server \
-    COMMERCIAL=false \
+    COMMERCIAL=true \
     EDITTION=developer \
     SONAR_VERSION=7.7 \
     SONARQUBE_HOME=/opt/sonarqube \
