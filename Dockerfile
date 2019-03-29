@@ -2,7 +2,7 @@ FROM openjdk:8-alpine
 
 ENV SOFT=server \
     COMMERCIAL=true \
-    EDITTION=enterprise \
+    EDITTION=datacenter \
     SONAR_VERSION=7.7 \
     SONARQUBE_HOME=/opt/sonarqube \
     # Database configuration
