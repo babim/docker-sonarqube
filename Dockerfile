@@ -3,7 +3,7 @@ FROM openjdk:8-alpine
 ENV SOFT=server \
     COMMERCIAL=true \
     EDITTION=developer \
-    SONAR_VERSION=7.7 \
+    SONAR_VERSION=7.2 \
     SONARQUBE_HOME=/opt/sonarqube \
     # Database configuration
     # Defaults to using H2
